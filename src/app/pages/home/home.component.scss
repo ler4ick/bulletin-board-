@@ -94,28 +94,51 @@
     font-weight: 600;
   }
 
-  // .adverts {
-  //   display: flex; // Включаем Flexbox
-  //   justify-content: space-between;
-
-  //   &-advert {
-  //     width: 306px;
-  //     height: 336px;
-  //     border: 1px solid #333;
-  //   }
-  // }
   .adverts {
     display: grid; // Включаем Grid
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 32px 24px;
+    list-style: none;
 
     &-advert {
       width: 306px;
       height: 336px;
       //border: 1px solid #333;
-      background: #3b82f6;
+      //background: #3b82f6;
       text-decoration: none;
+
+      &-name {
+        color: #3b82f6;
+        font-size: 18px;
+        margin-top: 8px;
+      }
+
+      &-price {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 24px;
+        text-align: left;
+        color: #1e293b;
+      }
+
+      &-address {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: #64748b;
+      }
+
+      &-date {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: #64748b;
+      }
+      img {
+        border-radius: 4px;
+      }
     }
   }
-  // 4 колонки равной ширины
 }
