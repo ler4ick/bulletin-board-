@@ -75,10 +75,47 @@
           &:hover {
             background-color: white;
             color: #3b82f6;
-            border: 1px solid #3b82f6;
           }
         }
       }
     }
   }
+}
+
+//main
+.container {
+  width: 1296px;
+  margin: 0 auto;
+
+  .text {
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  // .adverts {
+  //   display: flex; // Включаем Flexbox
+  //   justify-content: space-between;
+
+  //   &-advert {
+  //     width: 306px;
+  //     height: 336px;
+  //     border: 1px solid #333;
+  //   }
+  // }
+  .adverts {
+    display: grid; // Включаем Grid
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px 24px;
+
+    &-advert {
+      width: 306px;
+      height: 336px;
+      //border: 1px solid #333;
+      background: #3b82f6;
+      text-decoration: none;
+    }
+  }
+  // 4 колонки равной ширины
 }
