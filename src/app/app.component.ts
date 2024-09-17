@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SearchComponent } from './pages/search/search.component';
 import { AdComponent } from './pages/ad/ad.component';
+import { MyAdsComponent } from './pages/my-ads/my-ads.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { AdComponent } from './pages/ad/ad.component';
     HomeComponent,
     SearchComponent,
     AdComponent,
+    MyAdsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
