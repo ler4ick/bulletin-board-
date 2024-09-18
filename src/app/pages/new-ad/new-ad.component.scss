@@ -1,0 +1,223 @@
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.text {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 16px;
+
+  &-smaller {
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    color: rgba(30, 41, 59, 1);
+
+    &-small {
+      font-size: 16px;
+      color: #1e293b;
+    }
+
+    &-gateway {
+      font-size: 16px;
+      color: #3b82f6;
+      display: flex;
+      background: inherit;
+      margin-top: 4px;
+      margin-bottom: 32px;
+      gap: 12px;
+      cursor: pointer;
+    }
+  }
+}
+.main-head {
+  height: 84px;
+  border-bottom: 1px solid #e2dbfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-search {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    &-form {
+      margin-left: 24px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+
+      &-category {
+        border: 1px solid #3b82f6;
+        height: 36px;
+        margin-right: 12px;
+        display: flex;
+        align-items: center;
+        background: inherit;
+        font-size: 14px;
+        background-color: white;
+        color: #3b82f6;
+        padding: 8px 12px 8px 12px;
+        gap: 8px;
+        border-radius: 4px 4px 4px 4px;
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+          background-color: #3b82f6;
+        }
+      }
+
+      & input {
+        background: inherit;
+        border: 1px solid #cbd5e1;
+        outline: none;
+        display: flex;
+        font-size: 14px;
+        gap: 12px;
+        height: 35px;
+        border-radius: 4px 0px 0px 4px;
+        padding-right: 8px;
+        padding-left: 8px;
+        height: 35px;
+        width: 738px;
+      }
+
+      &-btn {
+        background: inherit;
+        font-size: 14px;
+        color: white;
+        background-color: #3b82f6;
+        border: 1px solid #3b82f6;
+        padding: 6px 12px 6px 12px;
+        gap: 8px;
+        border-radius: 0px 4px 4px 0px;
+        opacity: 0px;
+        height: 36px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+          background-color: white;
+          color: #3b82f6;
+        }
+      }
+    }
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    color: rgba(30, 41, 59, 1);
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  &-input {
+    background: inherit;
+    font-size: 16px;
+    color: rgba(100, 116, 139, 1);
+    border: 1px solid rgba(203, 213, 225, 1);
+    padding-left: 12px;
+    width: 856px;
+    height: 48px;
+    gap: 168px;
+    border-radius: 4px;
+    opacity: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  &-select {
+    background: inherit;
+    font-size: 16px;
+    color: rgba(100, 116, 139, 1);
+    border: 1px solid rgba(203, 213, 225, 1);
+    padding: 12px 12px 12px 12px;
+    width: 416px;
+    height: 48px;
+    gap: 168px;
+    border-radius: 4px;
+    opacity: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .custom-textarea {
+    background: inherit;
+    font-size: 16px;
+    color: rgba(100, 116, 139, 1);
+    border: 1px solid rgba(203, 213, 225, 1);
+    padding: 12px 12px 12px 12px;
+    width: 856px;
+    height: 200px;
+    border-radius: 4px;
+
+    &::placeholder {
+      color: rgba(100, 116, 139, 1);
+      font-size: 16px;
+    }
+  }
+
+  &-btn {
+    width: 262px;
+    height: 52px;
+    border-radius: 4px;
+    background: inherit;
+    font-size: 20px;
+    color: white;
+    background-color: #3b82f6;
+    border: 1px solid #3b82f6;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 24px;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(226, 232, 240, 1);
+    width: 837px;
+    height: 64px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    gap: 16px;
+
+    &-btn {
+      width: 186px;
+      height: 35px;
+      padding-left: 8px;
+      border-radius: 4px;
+      background: inherit;
+      font-size: 14px;
+      color: white;
+      background-color: #3b82f6;
+      border: 1px solid #3b82f6;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      &:hover {
+        background-color: white;
+        color: #3b82f6;
+      }
+    }
+  }
+}
