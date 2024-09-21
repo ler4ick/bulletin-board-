@@ -1,0 +1,25 @@
+.new-advert {
+  width: 300px;
+  height: 336px;
+  text-decoration: none;
+  border: 3px dotted rgba(59, 130, 246, 0.16);
+  background-color: rgba(59, 130, 246, 0.04);
+  border-radius: 4px;
+  font-size: 18px;
+  color: rgba(59, 130, 246, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(59, 130, 246, 0.08);
+    border-color: rgba(59, 130, 246, 0.32);
+  }
+
+  &:active {
+    color: rgba(30, 58, 138, 1);
+  }
+}
